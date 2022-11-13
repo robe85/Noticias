@@ -31,7 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'entradilla:ntext',
             'contenido:ntext',
             array (
-                'attribute' => 'imagen',
+                'attribute' => 'Imagen',
                 'format'=>'image',
                 'value'=> function($data){return $data->imageurl;},
 
