@@ -49,7 +49,7 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => require(__DIR__ . '/rules.php')
+            'rules' => ['class' => 'yii\rest\UrlRule', 'controller' => 'noticia'], //require(__DIR__ . '/rules.php')
     
         ],
         
