@@ -11,7 +11,7 @@ use yii\rest\ActiveController;
 /**
  * NoticiaController implements the CRUD actions for Noticia model.
  */
-class NoticiaController extends ActiveController
+class NoticiaController extends Controller
 {
      public $modelClass = 'app\models\Noticia';
     /**
